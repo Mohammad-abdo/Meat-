@@ -1,0 +1,27 @@
+.bg_img{
+    background: url(../../../../../public/images/about/about.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    object-fit: cover;
+    background-clip: content-box;
+    position: relative;
+    height: 75vh !important;
+ 
+
+}
+.bg_img::after{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    /* z-index:5; */
+    height: 100%;
+    width: 100%;
+ background: linear-gradient(to top,#171718,#100f0f82); 
+}
+.about_text{
+    font-family: 'Cormorant Garamond', serif;
+font-style: normal;
+  }

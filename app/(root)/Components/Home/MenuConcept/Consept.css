@@ -1,0 +1,23 @@
+.Liner{
+    background: linear-gradient(to bottom,#171718,#171718);
+}
+
+.Font_Cormorant{
+    font-family: 'Cormorant Garamond', serif;
+    
+  }
+  .p_home_1{
+    font-family: "Inter", Sans-serif !important;
+    width: 100%;
+    font-weight: 400 !important;
+    letter-spacing: 0.8px !important;
+    word-spacing: 6px !important;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  @media (min-width: 640px) {
+    .none_sec{
+     display: none;
+    }
+}

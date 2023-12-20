@@ -1,0 +1,40 @@
+.h_text{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.p_2_about{
+    font-family: "Inter", Sans-serif !important;
+width: 100%;
+
+word-spacing: 4px !important;
+line-height: 1.5;
+text-align: justify;
+
+}
+.p_t{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.bg_shadow{
+    position: relative;
+}
+.bg_shadow::after{
+    content:  " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.443);
+}
+
+.filter_img{
+    opacity: 0.75;
+    transition: all .8s ease-in-out;
+    filter: brightness( 99% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.filter_img:hover{
+
+    filter:none;
+}
