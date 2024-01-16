@@ -8,33 +8,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './styles.css';
-const CarouselImages=[
-    {
-        title:"/images/slide/1.webp",
-        alt:"meat images",
-        id:1
-    },
-    {
-        title:"/images/slide/2.webp",
-        alt:"meat images",
-        id:2
-    },
-    {
-        title:"/images/slide/3.webp",
-        alt:"meat images",
-        id:3
-    },
-    {
-        title:"/images/slide/4.webp",
-        alt:"meat images",
-        id:4
-    },
-  
-]
-// import required modules
+
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { CarouselImages } from '../../../../../constant/allInfo';
 const Carosul = () => {
   return (
     <div>
