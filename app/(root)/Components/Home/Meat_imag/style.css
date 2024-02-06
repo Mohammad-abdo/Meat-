@@ -1,0 +1,26 @@
+
+.right-key{
+    animation: rightScal   linear forwards;
+animation-timeline: view(500px 100px);
+ animation-timeline: view(); 
+animation-range:  entry-crossing;
+}
+
+
+@keyframes rightScal{
+ from{transform: translateX(100%);opacity: 0;}
+ to{transform: translateX(0);opacity: 1;}
+
+}
+@keyframes leftScal{
+    from{transform: translateX(-100%);opacity: 0;}
+    to{transform: translateX(0);opacity: 1;}
+   
+   }
+
+.left-key{
+    animation: leftScal   linear forwards;
+animation-timeline: view(500px 100px);
+ animation-timeline: view(); 
+animation-range:  entry-crossing;
+}

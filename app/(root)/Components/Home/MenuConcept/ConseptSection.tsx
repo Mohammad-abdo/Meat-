@@ -6,9 +6,9 @@ const ConseptSection = () => {
   <div className="container mx-auto">
   <div className="   mt-10 mx-auto  bg-[#171718] flex-wrap md:flex-nowrap flex items-center justify-between">
         <div className="transform md:w-1/3 sm:w-full  translate-y-28 sm:block">
-          <div className=" bg-[#bc955a] relative h-100">
+          <div className=" bg-[#bc955a] relative h-100 left-key">
             <img
-              src="/images/home/consept.webp"
+              src="/images/home/consept.jpg"
              
               className=" h-auto w-full transform translate-x-6 -translate-y-6"
             />
@@ -79,14 +79,14 @@ const ConseptSection = () => {
             </div>
           </div>
         </div>
-        <div className="text-white mb-20 md:block hidden">
+        <div className="text-white mb-20 md:block hidden right-key">
           <img src="/images/home/knifs.png" width={180} height={150} alt="" className=" " />
         </div>
          </div>
   </div>
         <div className="bg-[#111112]  mx-auto felx  md:flex items-center justify-center  mt-0" style={{}}>
       <div className="container mx-auto felx  md:flex items-center justify-center">
-      <div className="mx-2 mt-48 w-1/2 sm:w-full">  <img src="/images/home/Knife_Big.png" alt="" /></div>
+      <div className="mx-2 mt-48 w-1/2 sm:w-full left-key">  <img src="/images/home/Knife_Big.png" alt="" /></div>
           <div className="mx-2 flex sm:justify-center flex-col md:w-1/2 sm:w-full sm:mb-10" > 
             <div className="">
                 <span className="border-b-2 pb-4" >

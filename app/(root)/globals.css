@@ -8,8 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -17,8 +16,45 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-body{
-  font-family: 'Cormorant Garamond', serif;
-background: #181818;
+body {
+  font-family: "Cormorant Garamond", serif;
+  background: #181818;
+  overflow-x: hidden;
 }
 
+.right-key {
+  transition: all 0.9s ease-in;
+  animation: rightScal linear forwards;
+  animation-timeline: view(500px 100px);
+  animation-timeline: view();
+  animation-range: entry-crossing;
+}
+
+@keyframes rightScal {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes leftScal {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.left-key {
+  transition: all 0.9s ease-in;
+  animation: leftScal linear forwards;
+  animation-timeline: view(500px 100px);
+  animation-timeline: view();
+  animation-range: entry-crossing;
+}

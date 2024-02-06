@@ -60,7 +60,7 @@ const Accordion = () => {
   return (
     <div className='mt-24'>
           <div className="my-10 container mx-auto ">
-            <div className=" md:container lg:mx-40 md:mx-auto">
+            <div className=" md:container lg:mx-auto md:mx-auto">
                 <div className="  my-20 flex items-start md:items-center lg:justify-center lg:items-center md:justify-center flex-col  p-5 md:p-0  md:mx-40">
                     <p className=" text-[20px] md:text-4xl text-[#bc955a] p_inv " >
                     If you’re a leader with strong business acumen and have a passion for the world of hospitality, franchising with our restaurant  may be the perfect opportunity for you! 

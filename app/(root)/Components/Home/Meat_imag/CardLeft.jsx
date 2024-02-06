@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './style.css'
 const CardrLeft = ({imgURL,text}) => {
   return (
     <div>
-       <div className='bg-[#bc955a] relative  hover:scale-125 transfor transition-all duration-1000 md:h-100 md:w-64 my-20'
+       <div className=' right-key bg-[#bc955a] relative  hover:scale-95 transfor transition-all duration-1000 md:h-100 md:w-64 my-20'
         style={{width:"80%"}}
         
         >

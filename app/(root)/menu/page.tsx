@@ -1,10 +1,18 @@
 import React from 'react'
+import Header from '../Components/Header/Header'
+import Footer from '../Components/Footer/Footer'
+import MenuPage from '../Components/Menu/MenuPage'
+
+
 
 const Menu = () => {
   return (
-    <main>
-      <h1>Menu</h1>
-    </main>
+    <div>
+    <Header/>
+
+  <MenuPage />
+<Footer/>
+</div>
   )
 }
 

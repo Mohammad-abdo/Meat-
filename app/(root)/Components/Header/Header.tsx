@@ -28,7 +28,7 @@ const links = [
     id: 4,
     text: "MENU",
     active: "active",
-    rout: "/"
+    rout: "/menu"
   },
   {
     id: 5,
