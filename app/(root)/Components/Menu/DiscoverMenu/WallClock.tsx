@@ -5,8 +5,8 @@ import './cloock.css';
 const CustomClock = () => {
     useEffect(() => {
         const requestAnimationFrame = window.requestAnimationFrame || 
-                                      window.webkitRequestAnimationFrame || 
-                                      window.mozRequestAnimationFrame || 
+                                      window.requestAnimationFrame || 
+                                      window.requestAnimationFrame || 
                                       function(callback) {
                                           window.setTimeout(callback, 1000 / 60);
                                       };
