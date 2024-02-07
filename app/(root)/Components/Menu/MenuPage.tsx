@@ -3,6 +3,7 @@ import React from 'react'
 import './style.css'
 import LocationSection from './Location/LocationSection'
 import CardsSection from './CardsSection/CardsSection'
+import DiscoverMenu from './DiscoverMenu/DiscoverMenu'
 const MenuPage = () => {
   return (
     
@@ -12,6 +13,7 @@ const MenuPage = () => {
       </div>
       <LocationSection/>
       <CardsSection />
+      <DiscoverMenu/>
  </div>
   )
 }

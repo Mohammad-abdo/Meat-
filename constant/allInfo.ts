@@ -139,3 +139,128 @@ export const Images = [
       src:'/images/menu/LambShanks.jpg'
     }
   ]
+
+  export const MenuLink=[
+    {
+        id:1,
+        p:'TAKSIM',
+        srrong:'MENU'
+    },
+    {
+        id:2,
+        p:'MANAMA',
+        srrong:'MENU'
+    },
+    {
+        id:3,
+        p:'ERBIL',
+        srrong:'MENU'
+    },
+    {
+        id:4,
+        p:'TRABZON',
+        srrong:'MENU'
+    },
+    {
+        id:5,
+        p:'BURYDAH',
+        srrong:'MENU'
+    },
+    {
+        id:6,
+        p:'ABUDHAPI',
+        srrong:'MENU'
+    },
+    {
+        id:7,
+        p:'CAIRO',
+        srrong:'MENU'
+    },
+    {
+        id:8,
+        p:'DUBAI',
+        srrong:'MENU'
+    },
+    {
+        id:9,
+        p:'CHICAGO',
+        srrong:'MENU'
+    },
+    {
+        id:10,
+        p:'RIYADH',
+        srrong:'MENU'
+    },
+    {
+        id:11,
+        p:'RAMALLAH',
+        srrong:'MENU'
+    },
+    {
+        id:12,
+        p:'DABOUQ',
+        srrong:'MENU'
+    },
+    {
+      id:13,
+      p:'AMMAN',
+      srrong:'MENU'
+  },
+  {
+    id:14,
+    p:'HUWAIT',
+    srrong:'MENU'
+},
+{
+  id:15,
+  p:'QATAR',
+  srrong:'MENU'
+},
+{
+  id:16,
+  p:'VADI',
+  srrong:'MENU'
+},
+{
+  id:17,
+  p:'IRBID',
+  srrong:'MENU'
+},
+{
+  id:18,
+  p:'ZARQA',
+  srrong:'MENU'
+},
+{
+  id:19,
+  p:'MARRAKECH',
+  srrong:'MENU'
+},
+{
+  id:20,
+  p:'ORTAKOY',
+  srrong:'MENU'
+},
+{
+  id:21,
+  p:'MUSCAT',
+  srrong:'MENU'
+},
+{
+  id:22,
+  p:'ELSAHEL',
+  srrong:'MENU'
+},
+{
+  id:23,
+  p:'PATERSON',
+  srrong:'MENU'
+},
+{
+  id:24,
+  p:'BENGHAZI',
+  srrong:'MENU'
+},
+
+
+]

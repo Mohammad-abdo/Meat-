@@ -61,13 +61,14 @@ const CardsSection = () => {
                             </h2>
                             
                         </div>
-                        <p className='text-lg text-white w-[50%] Menu-p'>
+                        <p className='text-lg text-white w-[50%] Menu-p Animated-p'>
                                 {card.description}
                                 <strong>
                                     {card.descrip2}
                                 </strong>
                             </p>
                     </div>
+                    {/*  */}
                 </div>
             </div>
         ))
