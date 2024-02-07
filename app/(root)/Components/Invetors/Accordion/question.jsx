@@ -3,7 +3,6 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 const BasicAccordion = ({ head, info }) => {
@@ -18,7 +17,7 @@ const BasicAccordion = ({ head, info }) => {
       <Accordion expanded={expanded}
        onChange={handleAccordionChange}className='w-full bg-transparent border-b border-[#ec9823] '>
         <AccordionSummary
-          expandIcon={expanded ? <RemoveIcon  className='text-[#BC955A] text-lg md:text-4xl font-semibold'/> : <AddIcon className='text-[#BC955A] text-[20px] md:text-4xl font-semibold' />}
+          expandIcon={expanded ? <RemoveIcon  className='text-[#BC955A] text-lg md:text-4xl font-semibold bg-transparent'/> : <AddIcon className='text-[#BC955A] text-[20px] md:text-4xl font-semibold' />}
           
           aria-controls="panel1a-content"
           id="panel1a-header"

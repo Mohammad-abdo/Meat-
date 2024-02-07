@@ -73,7 +73,7 @@ const Accordion = () => {
     <div className="my-8 w-full">
         <h1 className=' w-full text-xl md:text-6xl text-[#bc955a]'> Frequently Asked Questions</h1>
     </div>
-<div className="my-20 w-full border border-[#ec9823]  ">
+<div className="my-20 w-full border border-[#ec9823] bg-transparent  ">
 
 {
     question.map((item)=>(
