@@ -11,9 +11,10 @@ const MenuProps = {
   PaperProps: {
     style: {
       maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: 190,
+      width: 170,
       backgroundColor:'#f5cf9c',
-      border:'white'
+      border:'#ec8923',
+     
     
     },
   },
@@ -51,16 +52,16 @@ export default function SingleSelectPlaceholder() {
 
   return (
     <div>
-      <FormControl sx={{ m: 1, width: 190, mt: 3 }}>
+      <FormControl sx={{ m: 1, width: 170, mt: 3 ,border:'#ec8923'}}>
         <Select
           displayEmpty
           value={personName}
           onChange={handleChange}
-      className=' bg-[#f5cf9c] focus:border-none'
+      className=' bg-[#fbc580]  hover:bg-[#dd9f4f] duration-20 focus:bg-[#e9862391] hover:text-white transition-all ease-in'
           input={<OutlinedInput />}
           renderValue={(selected) => {
             if (!selected) {
-              return <em >Choose a Location</em>;
+              return <em className='text-sm' >Choose a Location</em>;
             }
 
             return selected;
@@ -68,13 +69,14 @@ export default function SingleSelectPlaceholder() {
           MenuProps={MenuProps}
           inputProps={{ 'aria-label': 'Without label' }}
         >
-          <MenuItem disabled value="">
-            <em >Choose a Location</em>
+          <MenuItem disabled value="Choose a Location">
+            <em className='text-sm'>Choose a Location</em>
           </MenuItem>
           {names.map((name) => (
             <MenuItem
               key={name}
               value={name}
+              className='text-sm'
               style={getStyles(name, personName, theme)}
             >
               {name}

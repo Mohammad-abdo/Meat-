@@ -31,3 +31,11 @@
     width: 100%;
  background: linear-gradient(to top,#171718,#100f0f82); 
 }
+
+.Menu-p {
+    font-family: "Inter", Sans-serif !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.9px !important;
+    line-height: 1.8;
+    text-align: justify;
+}
