@@ -1,3 +1,6 @@
 .text__color{
-    
+    color: #BC955A !important;
+}
+.bg_transparent{
+    background: transparent;
 }
