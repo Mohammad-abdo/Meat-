@@ -13,6 +13,13 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        meatMoot_main:'#171718',
+        meatMoot_orange:'#ec8923',
+        meatMoot_heading:'#bc955a',
+        meatMoot_text:'#d4d4d4'
+
+      }
     },
     container:{
       padding: {
