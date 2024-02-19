@@ -56,7 +56,7 @@ const CustomClock = ({ text, timeZone }) => {
         </div>
       </div>
       <div className="">
-        <div className="my-1 text-sm w-full">
+        <div className="my-1  w-full text-sm text-white">
           {currentTime}
         </div>
         <div className="text-lg text-white">
